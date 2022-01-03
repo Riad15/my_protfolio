@@ -37,9 +37,9 @@ section{
     font-weight: bolder;
     padding: 9px 15px;
     border-radius: 10px;
-    
-    
-    
-
-
+}
+.dream-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
