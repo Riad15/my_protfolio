@@ -17,7 +17,7 @@ h1{
 /* .lazy{
     padding-left: 20px;
 } */
-section{
+.flaxible-section{
     display: flex;
 }
 .bio-data{
@@ -38,8 +38,37 @@ section{
     padding: 9px 15px;
     border-radius: 10px;
 }
+
 .dream-section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experiance-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ex-title{
+    padding-left: 40px;
+}
+.card{
+    display: flex;
+}
+.body-card{
+    background-color:steelblue;
+    display: 30%;
+    box-shadow: 4px 4.5px 20px rgb(65, 63, 60);
+    width: 400px;
+    height: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+    border: solid rgb(151, 143, 143) 5px;
+    border-radius: 5px;
+}
+.crd-title{
+    text-align: center;
+    color:snow;
 }
